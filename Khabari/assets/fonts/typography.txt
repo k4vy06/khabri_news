@@ -1,0 +1,1 @@
+Khabari uses a system font stack for fast local loading: Inter, Segoe UI, Roboto, Arial, sans-serif.

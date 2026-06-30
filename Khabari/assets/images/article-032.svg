@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Airlines add regional routes after steady business travel demand">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#13a05f"/>
+      <stop offset="0.55" stop-color="#1d2738"/>
+      <stop offset="1" stop-color="#0d111a"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <circle cx="1050" cy="130" r="190" fill="#ffffff" opacity=".09"/>
+  <circle cx="1120" cy="560" r="260" fill="#13a05f" opacity=".20"/>
+  <path d="M0 510 C220 430 390 585 620 500 S980 390 1280 470 L1280 720 L0 720 Z" fill="#ffffff" opacity=".08"/>
+  <g filter="url(#soft)">
+    <rect x="54" y="72" width="210" height="56" rx="18" fill="#ffffff" opacity=".18"/>
+    <text x="76" y="110" font-size="24" font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-weight="800">KHABARI</text>
+  </g>
+  <text x="54" y="188" font-size="20" font-family="Arial, Helvetica, sans-serif" fill="#dbe7ff" letter-spacing="4">BUSINESS</text>
+  <g font-family="Arial, Helvetica, sans-serif"><text x="54" y="230" font-size="34" font-weight="800" fill="#ffffff">Airlines add regional</text>
+<text x="54" y="276" font-size="30" font-weight="800" fill="#ffffff">routes after steady</text>
+<text x="54" y="322" font-size="30" font-weight="800" fill="#ffffff">business travel demand</text></g>
+  <g transform="translate(850 245)" opacity=".88">
+    <rect width="260" height="170" rx="28" fill="#ffffff" opacity=".15"/>
+    <path d="M88 50 L88 120 L154 85 Z" fill="#ffffff"/>
+  </g>
+</svg>

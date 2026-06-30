@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khabari is a complete multi-page news portal with live search, bookmarks, and richly designed article pages.">
+  <title>Editor's Picks | Khabari</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="listing" data-key="editors">
+  <div class="loading-screen" id="loadingScreen"><div class="loader-logo">K</div><p>Preparing the newsroom</p></div>
+  <div class="progress-bar" id="readingProgress"></div>
+  <header class="site-header" id="top">
+    <div class="top-strip">
+      <span id="currentDate">June 30, 2026</span>
+      <span id="liveClock">00:00:00</span>
+      <a href="search.html" class="top-link">Search</a>
+      <a href="bookmarks.html" class="top-link">Bookmarks <span id="bookmarkCount">0</span></a>
+    </div>
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Khabari home">
+        <span class="logo-mark">K</span>
+        <span><strong>Khabari</strong><small>Fast. Clear. Complete.</small></span>
+      </a>
+      <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-list" id="navList">
+        <li><a href="index.html">Home</a></li>
+<li><a href="breaking-news.html">Breaking</a></li>
+<li><a href="latest.html">Latest</a></li>
+<li><a href="world.html">World</a></li>
+<li><a href="india.html">India</a></li>
+<li><a href="technology.html">Technology</a></li>
+<li><a href="ai.html">AI</a></li>
+<li><a href="business.html">Business</a></li>
+<li><a href="sports.html">Sports</a></li>
+<li><a href="entertainment.html">Entertainment</a></li>
+<li><a href="health.html">Health</a></li>
+<li><a href="science.html">Science</a></li>
+<li><a href="trending.html">Trending</a></li>
+<li><a href="editors-picks.html" aria-current="page">Editor's Picks</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" aria-label="Toggle dark mode">◐</button>
+        <a class="icon-button" href="search.html" aria-label="Open search">⌕</a>
+      </div>
+    </nav>
+    <section class="ticker-wrap" aria-label="Breaking news ticker">
+      <strong>Breaking</strong>
+      <div class="ticker-window"><span id="breakingTicker"></span></div>
+      <button class="ticker-btn" id="tickerPrev" aria-label="Previous breaking story">‹</button>
+      <button class="ticker-btn" id="tickerNext" aria-label="Next breaking story">›</button>
+    </section>
+  </header>
+  <main id="app" class="page-shell" tabindex="-1"></main>
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+  <div class="toast-stack" id="toastStack" aria-live="polite"></div>
+  <footer class="site-footer">
+    <section class="footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html"><span class="logo-mark">K</span><span><strong>Khabari</strong><small>News portal</small></span></a>
+        <p>Khabari publishes concise reporting across public affairs, science, business, culture, and sport for readers who want context without clutter.</p>
+      </div>
+      <div>
+        <h3>Sections</h3>
+        <a href="world.html">World</a><a href="india.html">India</a><a href="technology.html">Technology</a><a href="ai.html">AI</a><a href="sports.html">Sports</a>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <a href="about.html">About</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a><a href="privacy.html">Privacy Policy</a>
+      </div>
+      <div>
+        <h3>Follow</h3>
+        <div class="socials"><a href="https://x.com" aria-label="X">X</a><a href="https://facebook.com" aria-label="Facebook">f</a><a href="https://instagram.com" aria-label="Instagram">◎</a><a href="https://youtube.com" aria-label="YouTube">▶</a></div>
+      </div>
+    </section>
+    <p class="copyright">© 2026 Khabari News Network. Built as a complete static news portal.</p>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

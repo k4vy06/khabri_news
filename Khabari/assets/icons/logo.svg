@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Khabari logo">
+  <defs><linearGradient id="k" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ff3347"/><stop offset="1" stop-color="#ffb703"/></linearGradient></defs>
+  <rect x="24" y="22" width="192" height="196" rx="48" fill="url(#k)"/>
+  <path d="M66 66h108v22H66zm0 43h108v22H66zm0 43h68v22H66z" fill="#fff"/>
+  <path d="M153 147l33 32h-33z" fill="#671111" opacity=".35"/>
+</svg>
